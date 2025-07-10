@@ -2,6 +2,7 @@
 
 A simple backend project that shortens long URLs and allows redirection via short codes. Built with **Node.js**, **Express**, and **MongoDB**, following the **MVC structure** with clean validation and error handling.
 
+## Deployed URL : https://url-shortner-backend-rune.onrender.com
 
 
 ## > Tech Stack
@@ -62,6 +63,8 @@ npm start     # Standard node run
 Using the API with Postman
 ## 1. POST /shorten
 URL: http://localhost:5000/shorten
+or
+Deploy URL : https://url-shortner-backend-rune.onrender.com/shorten
 
 Method: POST
 
@@ -87,6 +90,7 @@ Body: raw → JSON
 
 ## 2. GET /:code
 URL: http://localhost:5000/abc123
+Depolyed URL : https://url-shortner-backend-rune.onrender.com/abc123
 
 Method: GET
 
