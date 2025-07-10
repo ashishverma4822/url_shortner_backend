@@ -3,7 +3,7 @@ const { isValidHttpUrl, isValidFutureDate } = require('../utils/validators.js');
 const AppError = require('../utils/AppError');
 const shortid = require('shortid');
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://url-shortner-backend-rune.onrender.com';
 
 exports.shortenUrl = async (req, res, next) => {
   const { url, expiry } = req.body;
