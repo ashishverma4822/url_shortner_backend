@@ -32,7 +32,7 @@ A simple backend project that shortens long URLs and allows redirection via shor
 ### 1) Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/url-shortener-api.git
+git clone https://github.com/ashishverma4822/url_shortner_backend.git
 cd url-shortener-api
 ```
 
